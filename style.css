@@ -1,0 +1,124 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.color1 {
+   background-color: #1F2937;
+   margin: 0;
+}
+
+.hero, ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+
+.header {
+    display: flex;
+    margin: 32px;
+    justify-content: center;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    width: 333px; 
+}
+
+.right {
+    display: flex;
+    padding: 64px;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 32px;
+    text-align: center;
+}
+
+.text {
+    margin: 8px;
+}
+
+button {
+    display: inline;
+    padding: 6px 12px; /* Normal button size */
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.color2 {
+    background-color: #E5E7EB;
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 222px;
+}
+
+p.name {
+    text-align: right;
+    font-weight: bolder;
+    margin-top: 32px;
+}
+.body2 {
+    margin: 0;
+    padding: 33px;
+    display: flex;
+    justify-content: center; /* Horizontally center the box */
+    align-items: center;
+}
+
+.color3 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 20px 30px; 
+    max-width: 400px;
+
+}
+
+button.x1 {
+    background-color: #007BFF;      /* Blue background */
+    color: white;                   /* White text */
+    border: none;                   /* Remove border */
+    border-radius: 8px;             /* Rounded edges for the button */
+    padding: 10px 20px;             /* Space inside the button */
+    font-size: 16px;                /* Font size for the button text */
+    cursor: pointer;                /* Change cursor on hover */
+    transition: background-color 0.3s;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 32px;
+    color: #E5E7EB;
+    text-align: center;
+}
